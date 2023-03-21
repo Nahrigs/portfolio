@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body { margin:0; padding: 0;
+font-family: 'Poppins', sans-serif;
+/* overflow-x: hidden; */
+}
+
+.nav {
+    position: fixed !important;
+    top: 0;
+    background-color: #1C3879;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+}
+.nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    margin-inline: 10px;
+    font-weight: bold;
+}
+.nav a:hover {
+    color: gainsboro;
+
+}
+
+
+
+.container-hero {
+
+    height: 85vh;
+    width: auto;
+}
+
+.Titre {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+
+    
+}
+.Image {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60%;
+
+}
+
+.container-blue {
+    background-color: #1C3879;
+    width: auto;
+    height: 45vh;
+}
+
+.about {
+
+    margin-top: -10rem;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.about-card{
+    background-color: white;
+    display: flex;
+    width:80%;
+    height: 70vh;
+    border: 1px solid #e6ecf8;
+    border-radius: 22px;
+    box-shadow: 0px 3px 3px;
+
+}
+.about-contact {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e6ecf8;
+}
+.about-contact img {
+    width: 60%;
+    border-radius: 20px;
+}
+.about-contact p {
+    text-align: left;
+    font-size: large;
+}
+.button {
+    text-align: center;
+    text-decoration: none;
+    justify-self: flex-end;
+    color: white;
+    background-color: #2980b9;
+    border: 1px#1C3879;
+    border-radius: 15px;
+    padding: 5px;
+    padding-inline: 20px;
+    box-shadow: 0px 0px 2px;
+    transition: all .2s ease-in-out;
+
+}
+.button:hover {
+    transform: scale(90%);
+    background-color: #57b5f4;
+
+}
+.about-text {
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.about-text p {
+    width: 70%;
+    text-align: center;
+    font-size: large;
+
+}
+
+.competences {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid2 {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.skill img {
+    margin: 5vh;
+    margin-inline: 10vh;
+    width: 200px;
+}
+.css img{
+    width: 150px;
+}
+.js img{
+    width: 190px;
+}
+.java img{
+    width: 110px;
+}
+.python img{
+    width: 150px;
+}
+.competences div h1 {
+    font-size: xx-large;
+    text-justify: center;
+}
+.parcours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 5vh;
+}
+
+.projects {
+
+    margin-top: -17rem;
+    height: 75vh;
+    margin-bottom: 40rem;
+    
+}
+.projects div h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+}
+.grid-projects {
+    display: flex;
+    justify-content: space-around;
+
+}
+.project {
+    width: 20%;
+}
+.project h2 {
+    color: #e6ecf8;
+    text-align: center;
+}
+.project img {
+    width: 100%;
+    height: 35vh;
+    border: 1px solid #e6ecf8;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 3px 3px;
+    transition: all .2s ease-in-out;
+}
+.project img:hover{
+    transform: scale(110%);
+}
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* padding: 0rem 3rem; */
+    color: white;
+    opacity: 0;
+    transition: all .45s ease-in-out;
+}
+.article {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.article-card {
+    background-color: #F2E7D5;
+    display: flex;
+    width:80%;
+    height: 70vh;
+    border: 1px solid #e6ecf8;
+    border-radius: 22px;
+    box-shadow: 0px 3px 3px;
+    justify-content: center;
+
+}
+.article-card h1 {
+    font-size: xx-large;
+    
+}
+
+
+footer{
+    background-color: #1C3879;
+    width: auto;
+    height: 20vh;
+}
+
+.titre{
+    font-size: x-large;
+    text-align: center;
+    color: black;
+    margin-block: 20vh;
+}
+.vitrines{
+    display: flex;
+    width: 100%;
+    margin-inline: 10%;
+    margin-bottom: 10%;
+}
+.vitrines img{
+    width: 30vh;
+    margin-right: 10%;
+}
+.vitrines div {
+    padding-right: 10%;
+    font-size: large;
+}
+.para {
+    margin-block: 5%;
+}
