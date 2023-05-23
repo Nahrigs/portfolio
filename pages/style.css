@@ -241,6 +241,9 @@ figcaption {
     font-size: xx-large;
     
 }
+.article-card article {
+    font-size: xx-large;
+}
 
 
 footer{
@@ -271,4 +274,9 @@ footer{
 }
 .para {
     margin-block: 5%;
+}
+.tableau {
+    display: flex;
+    justify-content: center;
+    margin-block: 10vh;
 }
